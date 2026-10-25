@@ -1,0 +1,22 @@
+{
+  "name": "local-scm-diff",
+  "version": "0.2.0",
+  "author": {"name": "123WEIJIE123", "url": "https://github.com/123WEIJIE123"},
+  "homepage": "https://github.com/123WEIJIE123/codex-scm-diff",
+  "repository": "https://github.com/123WEIJIE123/codex-scm-diff",
+  "license": "MIT",
+  "description": "在 Codex 内查看本地 SVN/Git 工作副本差异，保留原生 Git 面板。",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "hooks": "./hooks/hooks.json",
+  "interface": {
+    "displayName": "Local SCM Diff",
+    "shortDescription": "SVN / Git 本地可视化差异",
+    "longDescription": "按项目识别 SVN 或 Git，在 Codex 浏览器面板查看文件列表、行号和红绿差异。支持修改前快照，仅在本地读取项目。",
+    "developerName": "123WEIJIE123",
+    "category": "Productivity",
+    "logo": "./assets/icon.svg",
+    "capabilities": ["Read"],
+    "defaultPrompt": ["打开当前项目的差异", "查看本轮修改的代码差异"]
+  }
+}

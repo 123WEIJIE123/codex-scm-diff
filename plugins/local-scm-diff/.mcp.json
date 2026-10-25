@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "local-scm-diff": {
+      "command": "python",
+      "args": ["${PLUGIN_ROOT}/scripts/scm_diff.py", "mcp"],
+      "cwd": "${PLUGIN_ROOT}"
+    }
+  }
+}

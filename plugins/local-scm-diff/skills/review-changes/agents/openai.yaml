@@ -1,0 +1,4 @@
+interface:
+  display_name: "SVN / Git 差异"
+  short_description: "在 Codex 内查看文件列表与红绿代码差异"
+  default_prompt: "使用 $review-changes 打开当前项目的可视化差异。"

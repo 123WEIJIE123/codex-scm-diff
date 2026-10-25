@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {"hooks": [{"type": "command", "command": "python \"${PLUGIN_ROOT}/scripts/scm_diff.py\" hook", "timeout": 60}]}
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>工作区差异 · Local SCM Diff</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body><header><div><span class="logo">±</span><strong>工作区差异</strong><span id="badge">识别中</span><span class="readonly">只读</span></div><div><select id="scm" aria-label="版本控制"><option value="auto">自动识别</option><option value="svn">SVN</option><option value="git">Git</option></select><button id="refresh">刷新</button></div></header>
+<div id="root" title="工作副本路径"></div><nav><button class="active" id="all">全部未提交改动</button><button id="turn" disabled>本轮修改</button><span id="baseline"></span></nav>
+<main><aside><div class="filters"><input id="filter" placeholder="筛选文件…" aria-label="筛选文件"><label><input type="checkbox" id="meta">隐藏 .meta</label></div><div id="count"></div><div id="files"></div></aside><section><div id="filetitle">选择文件查看差异</div><div id="notice"></div><div id="diff"><div class="empty">正在读取本地工作副本…</div></div></section></main>
+<footer><span id="status">本地读取，不修改工作区</span><span>红色为删除 · 绿色为新增 · Git 原生面板保持可用</span></footer></body></html>
